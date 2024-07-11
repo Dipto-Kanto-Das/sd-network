@@ -5,7 +5,9 @@
         text-align: center;
         max-width: 1000px;
     }
-
+    .login-area .password a{
+        margin: 0;
+    }
     .login-area {
         width: 405px;
         margin: auto;
@@ -55,6 +57,9 @@
     .date {
         margin-bottom: 10px;
     }
+    .login-area .password a{
+        margin: 0;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -63,5 +68,8 @@
     }
     .d-flex {
         display: block;
+    }
+    .login-area .password a{
+        margin: 0;
     }
 }

@@ -94,8 +94,11 @@ body{
 }
 
 /* sigup */
+.back{
+    background: #a3b5a3;
+}
 .sigup-area{
-    padding:20px;
+    padding:10px;
 }
 .sigup-area::after{
     overflow: hidden;
@@ -104,8 +107,9 @@ body{
     display: block;
 }
 .pic{
-    width: 55%;
+    width: 50%;
     float: left;
+    margin-right:5px;
 }
 .pic p{
     font-size: 20px;
@@ -116,12 +120,13 @@ body{
     width: 100%;
 }
 .sigup{
-    width: 45%;
+    width:40%;
     float: left;
+    margin-left:10px;
 }
 .sigup h1{
     font-size:40px;
-    color: #04d3f7;
+    color: #1c4a52;
     margin: 0%;
     
 }
@@ -177,7 +182,7 @@ margin-right:10px;
     font-size:20px;
     text-decoration: none;
     line-height: 1.2;
-    color: #b629b6;
+    color: #e0114f;
 }
 .link a:hover{
     text-decoration: underline;
@@ -199,7 +204,7 @@ margin-right:10px;
 }
 .tex p a{
     text-decoration:none;
-    color: #f507f1; 
+    color: #dd0f9f; 
     
 }
 .tex p a:hover{
@@ -223,7 +228,7 @@ margin-right:10px;
     color: #000;
 }
 .footer-area{
-    /* background:; */
+    background:#89059b;
     padding:30px 0;
 
   
@@ -252,7 +257,7 @@ margin-right:10px;
     margin-right: 0;
 }
 .footer-area hr{
-    border-bottom: #04d3f7 1px solid;
+    border-bottom: #013741 1px solid;
 }
 .footer-area .bottom{
     margin-top: 20px;
@@ -260,7 +265,7 @@ margin-right:10px;
 }
 
 .footer-area span{
-    color: #f312ef;
+    color: #230122;
     font-size: 20px;
 
 }
