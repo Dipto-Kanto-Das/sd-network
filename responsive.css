@@ -1,52 +1,67 @@
 @media screen and (max-width:980px) {
-    .logo-area{
-        width:100%;
-        float:none;
+    .logo-area {
+        width: 100%;
+        float: none;
         text-align: center;
-        max-width:1000px;
+        max-width: 1000px;
     }
-    .login-area{
-        width:405px;
+
+    .login-area {
+        width: 405px;
         margin: auto;
-        float:none;
+        float: none;
         color: #2107e1;
     }
-    .login-area form{
-        float:none;
+
+    .login-area form {
+        float: none;
     }
-    .pic{
+
+    .pic {
         width: 100%;
         float: none;
     }
-    .sigup{
+
+    .sigup {
         width: 100%;
         float: none;
-    } 
+    }
 }
+
 @media screen and (max-width:768px) {
-    .login-area{
+    .login-area {
         width: 100%;
+    }
+    .d-flex {
+        display: block;
     }
     .login-area .email,
     .login-area .password,
-    .login-area .login{
-        float:none;
-         margin:0px;
+    .login-area .login {
+        float: none;
+        margin: 0px;
     }
+
     .login-area input[type="text"],
-    .login-area input[type="password"]{
+    .login-area input[type="password"] {
         width: 100%;
         box-sizing: border-box;
     }
-    .login-area input[type="submit"]{
+
+    .login-area input[type="submit"] {
         margin-top: 10px;
     }
-    .date{
-        margin-bottom:10px;
+
+    .date {
+        margin-bottom: 10px;
     }
 }
-@media screen and (max-width:480px){
-    .container{
+
+@media screen and (max-width:480px) {
+    .container {
         width: 80%;
+    }
+    .d-flex {
+        display: block;
     }
 }

@@ -8,10 +8,12 @@ body{
     overflow: hidden;
     padding:7px 0;
 }
+.d-flex{
+    display: flex;
+}
 .container{
     width:65%;
     margin:auto;
-    display: flex;
 }
 .logo-area{
    
