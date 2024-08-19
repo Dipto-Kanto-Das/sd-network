@@ -269,5 +269,13 @@ margin-right:10px;
     font-size: 20px;
 
 }
+.top li  :hover{
+    background-color: #04d3f7;
+    color: #000;
+}
+.bottom :hover{
+    background: #04ed3b;
+    color: white;
+}
 
 
